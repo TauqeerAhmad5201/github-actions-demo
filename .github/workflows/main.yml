@@ -1,0 +1,16 @@
+name: demo-for-github-actions
+
+on: 
+  push
+    branches 
+     - main
+
+jobs: 
+  build: 
+    run-ons: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a simple github action
+        run: echo "this workflow is running perfectly"
