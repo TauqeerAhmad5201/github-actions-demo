@@ -2,8 +2,6 @@ name: demo-for-github-actions
 
 on: 
   push
-    branches 
-     - main
 
 jobs: 
   build: 
